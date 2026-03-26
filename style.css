@@ -1,0 +1,12 @@
+
+
+
+.weather-result-container {
+    /* Styly pro zobrazení výsledků */
+    }
+    #status-message.loading {
+    color: blue;
+    }
+    #status-message.error {
+    color: red;
+    }
