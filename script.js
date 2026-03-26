@@ -3,11 +3,10 @@ const API_KEY = 'f85a59dc629c082d9fbe8dcea06a2930';
 const form = document.getElementById("city-form");
 const input = document.getElementById("city-input");
 
-  form.addEventListener("submit", function(event)
-  {
-    event.preventDefault(); // stop page reload
-
-    const city = input.value.trim()
+form.addEventListener("submit", function(event)
+{
+    event.preventDefault();
+    const city = input.value.trim();
     fetchweather(city);
 });
 
