@@ -13,7 +13,7 @@ form.addEventListener("submit", function(event)
 async function fetchweather(city)
 {
     const statusMessage = document.querySelector('#status-message');
-    statusMessage.textContent = `....`;
+    statusMessage.textContent = '....';
     statusMessage.className = 'loading';
 
     try
