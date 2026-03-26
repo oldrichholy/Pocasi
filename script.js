@@ -35,8 +35,8 @@ async function fetchweather(city)
 
         const mesto = data.name;
         const country = data.sys.country;
-        const temp = data.main.temp;
-        const feelsLike = data.main.feels_like;
+        const temp = Math.trunc(data.main.temp);
+        const feelsLike = Math.trunc(data.main.feels_like);
         const description = data.weather[0].description;
         const wind = data.wind.speed;
       
