@@ -27,7 +27,6 @@ async function fetchweather(city)
         }
 
         const data = await response.json();
-        console.log(data);
         statusMessage.textContent = '';
 
         // display
