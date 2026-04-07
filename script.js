@@ -39,8 +39,8 @@ async function fetchweather(city)
         const description = data.weather[0].description;
         const wind = data.wind.speed;
       
-        container.innerHTML = `
-          <h2>🌍 ${mesto}, ${country}</h2>
+        container.innerHTML = 
+        `<h2>🌍 ${mesto}, ${country}</h2>
           <p>🌡️ Temperature: ${temp}°C</p>
           <p>🤔 Feels like: ${feelsLike}°C</p>
           <p>☁️ Condition: ${description}</p>
